@@ -10,3 +10,10 @@ ln -s /home/jdk1.8.0_171/bin/jstat /usr/bin/jstat
 
 ```
 2. zabbix 客户端需要用root用户运行
+3. 需要在主机创建路径,将jps.py拷贝到给路径下
+```sh
+mkdir /etc/zabbix/tools/
+# 给脚本执行权限
+chmod +x jps.py
+```
+4. 将userparameter_jps.conf拷贝到/etc/zabbix/zabbix_agentd.d路径下
