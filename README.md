@@ -1,12 +1,13 @@
 # zabbix-java-1.8-template
 
+
+### 自动发现主机上运行的java程序，并监控程序的cpu、内存、线程数、gc等信息
+
 > Centos 7
 
 > Jdk 1.8
 
 > Python 2.7
-
-### 自动发现主机上运行的java程序，并监控程序的cpu、内存、线程数、gc等信息
 
 注意事项：
 1. 脚本使用了jps和jstat两个jdk自带的命令，需要设置软连接
