@@ -1,5 +1,9 @@
 # zabbix-java-1.8-template
 
+> Centos 7
+> Jdk 1.8
+> Python 2.7
+
 ### 自动发现主机上运行的java程序，并监控程序的cpu、内存、线程数、gc等信息
 
 注意事项：
